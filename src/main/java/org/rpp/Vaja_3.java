@@ -9,16 +9,5 @@ package org.rpp;
  * Po vsakem prehodu zunanje zanke (ko se notranja zanka izvede 4 krat) vstavi novo vrstico.
  */
 public class Vaja_3 {
-    public static void main(String[] args) {
-        int outerCount = 0;
-        while (outerCount < 7) {
-            int innerCount = 0;
-            while (innerCount < 4) {
-                System.out.print("Luka ");
-                innerCount++;
-            }
-            System.out.println();
-            outerCount++;
-        }
-    }
+    
 }

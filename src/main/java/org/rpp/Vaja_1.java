@@ -7,16 +7,5 @@ package org.rpp;
  * Nalogo reši z zanko while/do-while ali for.
  */
 public class Vaja_1 {
-    public static void main(String[] args) {
-        int i = 20;
-        while (i <= 200) {
-            System.out.print(i);
-            if (i < 200) {
-                System.out.print(", ");
-            } else {
-                System.out.print(".");
-            }
-            i += 2;
-        }
-    }
+    
 }
